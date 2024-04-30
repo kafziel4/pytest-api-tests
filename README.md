@@ -21,6 +21,6 @@ A workflow is set up to install Python, install the required packages, run the t
 
 - Install [Python](https://www.python.org/)
 - Install the project packages: `pip install -r requirements.txt`
-- Run the tests: `python -m pytest`
+- Run the tests and generate the report: `python -m pytest --html=reports/index.html`
 
-![robot](./docs/pytest.gif)
+![pytest](./docs/pytest.gif)
